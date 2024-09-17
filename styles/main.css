@@ -51,6 +51,12 @@ body {
   font-weight: 100;
   line-height: 24px;
 }
+.services-container img {
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
 .services-container .services {
   list-style-type: none;
   font-size: 14px;
@@ -74,8 +80,6 @@ body {
 }
 .testimonial-container {
   padding: 50px 0;
-  /* Navigasi carousel */
-  /* Responsive styles for mobile */
 }
 .testimonial-container h3 {
   font-size: 24px;
@@ -92,7 +96,6 @@ body {
   border-radius: 15px;
   max-width: 850px;
   margin: 0 auto;
-  /* Alignments for larger screens */
 }
 @media (min-width: 768px) {
   .testimonial-container .testimonial-item {
@@ -103,7 +106,6 @@ body {
 .testimonial-container .user-photo {
   width: 80px;
   height: 80px;
-  /* Margin-bottom for mobile */
 }
 @media (max-width: 767px) {
   .testimonial-container .user-photo {
@@ -137,7 +139,7 @@ body {
     max-width: 100%;
     padding: 20px;
     text-align: center;
-    flex-direction: column; /* Stack content vertically */
+    flex-direction: column;
   }
   .testimonial-container .testimonial-content {
     max-width: 100%;
