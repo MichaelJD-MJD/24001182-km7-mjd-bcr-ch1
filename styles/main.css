@@ -1,0 +1,216 @@
+body {
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+
+.bg {
+  background-color: #F1F3FF;
+}
+
+.navbar-container .regist-btn button {
+  background-color: #5cb85f;
+  color: #ffffff;
+}
+.navbar-container .regist-btn button:hover {
+  background-color: #75ca78;
+  color: #ffffff;
+}
+
+.header-container .teks-container h3 {
+  font-size: 36px;
+  font-weight: bold;
+}
+.header-container .teks-container p {
+  font-size: 14px;
+  font-weight: 100;
+}
+.header-container .teks-container .start-btn {
+  background-color: #5cb85f;
+  color: #ffffff;
+  text-decoration: none;
+}
+.header-container .teks-container .start-btn:hover {
+  background-color: #75ca78;
+  color: #ffffff;
+}
+.header-container .car-img {
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.services-container h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36px;
+}
+.services-container p {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 24px;
+}
+.services-container .services {
+  list-style-type: none;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 48px;
+}
+
+.whyus-container h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.whyus-container p {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+@media (max-width: 576px) {
+  .whyus-container .why-title {
+    text-align: center;
+  }
+}
+.testimonial-container {
+  padding: 50px 0;
+  /* Navigasi carousel */
+  /* Responsive styles for mobile */
+}
+.testimonial-container h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.testimonial-container p {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.testimonial-container .testimonial-item {
+  background-color: #F1F3FF;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 850px;
+  margin: 0 auto;
+  /* Alignments for larger screens */
+}
+@media (min-width: 768px) {
+  .testimonial-container .testimonial-item {
+    flex-direction: row;
+    text-align: left;
+  }
+}
+.testimonial-container .user-photo {
+  width: 80px;
+  height: 80px;
+  /* Margin-bottom for mobile */
+}
+@media (max-width: 767px) {
+  .testimonial-container .user-photo {
+    margin-bottom: 20px;
+  }
+}
+.testimonial-container .testimonial-content {
+  max-width: 600px;
+}
+.testimonial-container .testimonial-content .testimonial-text {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+}
+.testimonial-container .testimonial-content .testimonial-author {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+}
+.testimonial-container .carousel-control-prev-icon,
+.testimonial-container .carousel-control-next-icon {
+  background-color: #000;
+  border-radius: 50%;
+  padding: 10px;
+}
+@media (max-width: 767px) {
+  .testimonial-container h3 {
+    font-size: 20px;
+  }
+  .testimonial-container .testimonial-item {
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column; /* Stack content vertically */
+  }
+  .testimonial-container .testimonial-content {
+    max-width: 100%;
+  }
+  .testimonial-container .carousel-control-prev-icon,
+  .testimonial-container .carousel-control-next-icon {
+    background-color: #000;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.banner-container .banner-content {
+  background-color: #0D28A6;
+  color: white;
+}
+.banner-container h2 {
+  font-size: 36px;
+  font-weight: bold;
+  padding: 10px;
+}
+.banner-container p {
+  font-size: 14px;
+  font-weight: 100;
+  padding: 10px;
+}
+.banner-container .start-btn {
+  background-color: #5cb85f;
+  color: #ffffff;
+  text-decoration: none;
+}
+.banner-container .start-btn:hover {
+  background-color: #75ca78;
+  color: #ffffff;
+}
+
+.faq-container h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.faq-container p {
+  font-size: 14px;
+  font-weight: 100;
+}
+.faq-container .accordion-header {
+  border: 1px solid #D4D4D4;
+}
+@media (max-width: 767px) {
+  .faq-container h3 {
+    text-align: center;
+  }
+  .faq-container p {
+    text-align: center;
+  }
+}
+
+.footer-container p {
+  font-size: 14px;
+  font-weight: 100;
+}
+.footer-container .footer-nav li {
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+.footer-container .footer-nav a {
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 767px) {
+  .footer-container .footer-nav {
+    margin-bottom: 5px;
+  }
+  .footer-container .footer-sosmed {
+    margin-bottom: 15px;
+  }
+}/*# sourceMappingURL=main.css.map */

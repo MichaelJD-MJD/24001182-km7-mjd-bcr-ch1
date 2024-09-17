@@ -1,0 +1,16 @@
+.services-container h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36px;
+}
+.services-container p {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 24px;
+}
+.services-container .services {
+  list-style-type: none;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 48px;
+}/*# sourceMappingURL=services.css.map */
